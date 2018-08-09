@@ -1,0 +1,14 @@
+use_frameworks!
+platform :ios, '11.0'
+
+pod 'RealmSwift'
+
+target 'MyRides' do
+    pod 'Realm'
+    pod 'RealmSwift'
+end
+
+target 'MyRidesTests' do
+    pod 'Realm'
+    pod 'RealmSwift'
+end
